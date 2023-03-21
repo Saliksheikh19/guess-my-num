@@ -36,7 +36,7 @@ if(score.textContent > 0) {
 })
 
 refresh.addEventListener('click' , () => {
-
+highScore.textContent= 10
    score.textContent = 10
    show.textContent= '?'
 })

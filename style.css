@@ -116,3 +116,15 @@ padding-top: 10px;
    .clo{
     background: chartreuse;
    }
+
+
+   @media only screen and (max-width: 600px){
+    body{
+        width: 100%;
+        height: auto;
+
+    }
+    .headertext h1{
+        font-size: 30px;
+    }
+   }
